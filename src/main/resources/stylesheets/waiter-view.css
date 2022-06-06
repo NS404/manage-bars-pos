@@ -1,0 +1,157 @@
+@font-face {
+    font-family:"Roboto Medium";
+    src: url("../fonts/Roboto-Medium.ttf");
+}
+@font-face {
+    font-family:"Rambla";
+    src: url("../fonts/Rambla-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("../fonts/Roboto-Regular.ttf");
+}
+
+.root{
+    -fx-background-color: white;
+}
+
+
+#category-VBox {
+    -fx-background-color: #E9C7C7;
+    -fx-border-color: black;
+    -fx-border-width: 1.5;
+}
+
+
+#stack-pane{
+    -fx-background-color: #E9C7C7;
+}
+
+
+#products-flow-pane{
+    -fx-background-color: #C4C4C4;
+    -fx-vgap: 5;
+    -fx-hgap: 5;
+    -fx-padding: 7;
+}
+#product-button {
+    -fx-padding: 0;
+    -fx-background-radius: 0;
+    -fx-font-family: "Roboto Medium";
+    -fx-text-alignment: center;
+    -fx-background-color: white;
+    -fx-text-fill: #000000;
+    -fx-font-size: 14px;
+    -fx-wrap-text: true;
+}
+#product-button .radio .dot{
+    -fx-background-color: transparent;
+}
+
+
+#product-button:pressed{
+    -fx-background-color: yellow;
+}
+
+
+#product-button:hover {
+    -fx-border-width: 1.5;
+    -fx-border-color: #000000;
+    -fx-border-insets: -1;
+}
+
+
+#category-button {
+    -fx-background-color: transparent;
+    -fx-padding: 5 0 5 0;
+    -fx-text-fill: #000000;
+    -fx-font-family: "Rambla";
+    -fx-font-size: 17px;
+    -fx-font-weight: 400;
+}
+
+#category-button:selected .text{
+    -fx-strikethrough: true;
+}
+
+
+
+#order-table {
+    -fx-background-color: #c4c4c4;
+
+}
+
+#order-table .placeholder .label {
+    -fx-text-fill: transparent;
+}
+
+#order-table .column-header-background{
+    -fx-background-color: E9C7C7FF;
+    -fx-border-color: black;
+    -fx-border-width: 1.5;
+}
+#order-table .column-header {
+    -fx-background-color: transparent;
+    -fx-size:45;
+}
+#order-table .column-header .label{
+    -fx-text-fill: black;
+    -fx-font-family: Roboto;
+    -fx-font-size: 15px;
+
+}
+#order-table .table-cell{
+    -fx-border-color: null;
+    -fx-background-color: #c4c4c4;
+}
+#order-table .table-column{
+    -fx-alignment: center; /* alignment of columns text  */
+    -fx-font-family: Roboto;
+    -fx-font-size: 17px;
+    -fx-text-fill: black;
+
+}
+#order-table .virtual-flow .scroll-bar:vertical,
+#order-table .virtual-flow .scroll-bar:vertical .track,
+#order-table .virtual-flow .scroll-bar:vertical .track-background{
+    -fx-background-color: transparent;
+}
+#order-table .virtual-flow .scroll-bar:vertical .thumb{
+    -fx-background-color: #807f7f;
+}
+
+
+
+#order-table *.scroll-bar:horizontal *.increment-arrow,
+#order-table *.scroll-bar:horizontal *.decrement-arrow {
+    -fx-background-color: null;
+    -fx-background-radius: 0;
+    -fx-background-insets: 0;
+    -fx-padding: 0;
+    -fx-shape: null;
+}
+#order-table *.scroll-bar:horizontal *.increment-button,
+#order-table *.scroll-bar:horizontal *.decrement-button {
+    -fx-background-color: null;
+    -fx-background-radius: 0;
+    -fx-background-insets: 0;
+    -fx-padding: 0;
+}
+
+.total-label{
+    -fx-background-color: #E9C7C7;
+    -fx-border-width: 1.5;
+    -fx-border-color: black;
+    -fx-font-family: Roboto;
+    -fx-font-size: 17px;
+    -fx-text-fill: black;
+}
+.icon-button {
+    -fx-background-color: transparent;
+}
+
+
+
+
+

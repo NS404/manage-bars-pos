@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.cell.PropertyValueFactory?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="474.0" prefWidth="600.0" stylesheets="@../stylesheets/manager-view.css" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.ns.managebars.viewControllers.ShiftHistoryController">
+   <children>
+      <TableView fx:id="ordersTable" layoutX="27.0" layoutY="37.0" onMouseClicked="#orderSelected" prefHeight="373.0" prefWidth="227.0" styleClass="table">
+        <columns>
+          <TableColumn prefWidth="75.0" text="Nr">
+              <cellValueFactory>
+                  <PropertyValueFactory property="Id" />
+            </cellValueFactory>
+          </TableColumn>
+          <TableColumn prefWidth="75.0" text="Totali">
+              <cellValueFactory>
+                  <PropertyValueFactory property="total" />
+              </cellValueFactory>
+          </TableColumn>
+            <TableColumn prefWidth="76.0" text="Ora">
+                <cellValueFactory>
+                    <PropertyValueFactory property="time" />
+                </cellValueFactory>
+            </TableColumn>
+        </columns>
+      </TableView>
+      <TableView fx:id="orderDetailsTable" layoutX="311.0" layoutY="37.0" prefHeight="373.0" prefWidth="227.0" styleClass="table">
+        <columns>
+          <TableColumn prefWidth="75.0" text="Produkti">
+              <cellValueFactory>
+                  <PropertyValueFactory property="product" />
+              </cellValueFactory>
+          </TableColumn>
+          <TableColumn prefWidth="75.0" text="Sasia">
+              <cellValueFactory>
+                 <PropertyValueFactory property="quantity" />
+              </cellValueFactory>
+          </TableColumn>
+            <TableColumn prefWidth="75.0" text="Nentotali">
+                <cellValueFactory>
+                    <PropertyValueFactory property="subtotal" />
+                </cellValueFactory>
+            </TableColumn>
+        </columns>
+      </TableView>
+      <Label fx:id="totalLabel" layoutX="27.0" layoutY="417.0" prefHeight="43.0" prefWidth="94.0" styleClass="total-label" text="0" />
+   </children>
+</AnchorPane>

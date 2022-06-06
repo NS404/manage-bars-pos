@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.cell.PropertyValueFactory?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<HBox depthTest="DISABLE" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="663.0" prefWidth="1023.0" stylesheets="@../stylesheets/waiter-view.css" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.ns.managebars.viewControllers.WaiterController">
+   <children>
+      <VBox prefHeight="683.0" prefWidth="510.0">
+         <HBox.margin>
+            <Insets left="23.0" right="17.0" top="10.0" />
+         </HBox.margin>
+         <children>
+            <HBox minHeight="-Infinity" minWidth="-Infinity" prefHeight="598.0" prefWidth="510.0">
+               <children>
+                  <ScrollPane  hbarPolicy="NEVER" vbarPolicy="NEVER">
+                     <content>
+                        <VBox id="category-VBox" fx:id="categoriesVBox" alignment="TOP_CENTER" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="596.0" prefWidth="89.0" spacing="1.0" />
+                     </content>
+                  </ScrollPane>
+                  <FlowPane id="products-FlowPane" fx:id="productsFlowPane" hgap="5.0" prefHeight="609.0" prefWidth="420.0" style="-fx-background-color: c4c4c4;" vgap="5.0">
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin>
+                     <children>
+                        <Button id="product-button" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#productButtonAction" prefHeight="79.0" prefWidth="77.0" />
+                        <Button id="product-button" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#productButtonAction" prefHeight="79.0" prefWidth="77.0" />
+                        <Button id="product-button" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#productButtonAction" prefHeight="79.0" prefWidth="77.0" />
+                        <Button id="product-button" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#productButtonAction" prefHeight="79.0" prefWidth="77.0" />
+                        <Button id="product-button" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#productButtonAction" prefHeight="79.0" prefWidth="77.0" />
+                        <Button id="product-button" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#productButtonAction" prefHeight="79.0" prefWidth="77.0" />
+                        <Button id="product-button" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#productButtonAction" prefHeight="79.0" prefWidth="77.0" />
+                        <Button id="product-button" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#productButtonAction" prefHeight="79.0" prefWidth="77.0" />
+                        <Button id="product-button" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#productButtonAction" prefHeight="79.0" prefWidth="77.0" />
+                        <Button id="product-button" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#productButtonAction" prefHeight="79.0" prefWidth="77.0" />
+                        <Button id="product-button" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#productButtonAction" prefHeight="79.0" prefWidth="77.0" />
+                        <Button id="product-button" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#productButtonAction" prefHeight="79.0" prefWidth="77.0" />
+                        <Button id="product-button" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#productButtonAction" prefHeight="79.0" prefWidth="77.0" />
+                        <Button id="product-button" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#productButtonAction" prefHeight="79.0" prefWidth="77.0" />
+                        <Button id="product-button" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#productButtonAction" prefHeight="79.0" prefWidth="77.0" />
+                        <Button id="product-button" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#productButtonAction" prefHeight="79.0" prefWidth="77.0" />
+                        <Button id="product-button" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#productButtonAction" prefHeight="79.0" prefWidth="77.0" />
+                        <Button id="product-button" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#productButtonAction" prefHeight="79.0" prefWidth="77.0" />
+                        <Button id="product-button" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#productButtonAction" prefHeight="79.0" prefWidth="77.0" />
+                        <Button id="product-button" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#productButtonAction" prefHeight="79.0" prefWidth="77.0" />
+                        <Button id="product-button" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#productButtonAction" prefHeight="79.0" prefWidth="77.0" />
+                        <Button id="product-button" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#productButtonAction" prefHeight="79.0" prefWidth="77.0" />
+                        <Button id="product-button" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#productButtonAction" prefHeight="79.0" prefWidth="77.0" />
+                        <Button id="product-button" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#productButtonAction" prefHeight="79.0" prefWidth="77.0" />
+                        <Button id="product-button" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#productButtonAction" prefHeight="79.0" prefWidth="77.0" />
+                        <Button id="product-button" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#productButtonAction" prefHeight="79.0" prefWidth="77.0" />
+                        <Button id="product-button" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#productButtonAction" prefHeight="79.0" prefWidth="77.0" />
+                        <Button id="product-button" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#productButtonAction" prefHeight="79.0" prefWidth="77.0" />
+                        <Button id="product-button" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#productButtonAction" prefHeight="79.0" prefWidth="77.0" />
+                        <Button id="product-button" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#productButtonAction" prefHeight="79.0" prefWidth="77.0" />
+                        <Button id="product-button" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#productButtonAction" prefHeight="79.0" prefWidth="77.0" />
+                        <Button id="product-button" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#productButtonAction" prefHeight="79.0" prefWidth="77.0" />
+                        <Button id="product-button" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#productButtonAction" prefHeight="79.0" prefWidth="77.0" />
+                        <Button id="product-button" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#productButtonAction" prefHeight="79.0" prefWidth="77.0" />
+                        <Button id="product-button" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#productButtonAction" prefHeight="79.0" prefWidth="77.0" />
+                     </children>
+                     <padding>
+                        <Insets bottom="7.0" left="7.0" right="7.0" top="7.0" />
+                     </padding>
+                  </FlowPane>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="55.0" prefWidth="510.0">
+               <children>
+                  <Button fx:id="leftButton" contentDisplay="GRAPHIC_ONLY" mnemonicParsing="false" onAction="#leftButton" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: transparent;" text="&lt;">
+                     <HBox.margin>
+                        <Insets right="5.0" />
+                     </HBox.margin>
+                     <graphic>
+                        <ImageView fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../icons/left-icon.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button fx:id="rightButton" contentDisplay="GRAPHIC_ONLY" mnemonicParsing="false" onAction="#rightButton" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: transparent;" text="&gt;">
+                     <HBox.margin>
+                        <Insets left="5.0" />
+                     </HBox.margin>
+                     <graphic>
+                        <ImageView fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../icons/right-icon.png" />
+                           </image>
+                        </ImageView>
+                     </graphic></Button>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+      <VBox id="subOrder-VBox" minHeight="-Infinity" minWidth="-Infinity" prefHeight="591.0" prefWidth="448.0">
+         <HBox.margin>
+            <Insets bottom="36.0" top="10.0" />
+         </HBox.margin>
+         <children>
+            <TableView id="order-table" fx:id="orderTable" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="393.0" prefWidth="448.0">
+               <columns>
+                  <TableColumn  minWidth="232.0" prefWidth="232.0" resizable="false" text="PRODUKTI">
+                     <cellValueFactory><PropertyValueFactory property="product" />
+                     </cellValueFactory>
+                  </TableColumn>
+
+                  <TableColumn  minWidth="91.0" prefWidth="91.0" resizable="false" text="SASIA">
+                     <cellValueFactory><PropertyValueFactory property="quantity" />
+                     </cellValueFactory>
+                  </TableColumn>
+
+                  <TableColumn minWidth="125.0" prefWidth="125.0" resizable="false" text="CMIMI">
+                     <cellValueFactory><PropertyValueFactory property="subtotal" />
+                     </cellValueFactory>
+                  </TableColumn>
+               </columns>
+            </TableView>
+            <HBox fillHeight="false" prefHeight="56.0" prefWidth="397.0">
+               <children>
+                  <Button contentDisplay="GRAPHIC_ONLY" graphicTextGap="0.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#pushOrderAction" prefHeight="77.0" prefWidth="70.0" styleClass="icon-button" text="OK">
+                     <graphic>
+                        <ImageView fitHeight="65.0" fitWidth="65.0" pickOnBounds="true">
+                           <image>
+                              <Image url="@../icons/tic-icon.png" />
+                           </image>
+                        </ImageView>
+                     </graphic></Button>
+                  <Button  contentDisplay="GRAPHIC_ONLY" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#deleteButtonAction" prefHeight="70.0" prefWidth="70.0" styleClass="icon-button" text="Fshij">
+                     <graphic>
+                        <ImageView fitHeight="63.0" fitWidth="70.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../icons/delete-icon.png" />
+                           </image>
+                        </ImageView>
+                     </graphic></Button>
+                  <Button contentDisplay="GRAPHIC_ONLY" graphicTextGap="0.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#historyButtonAction" prefHeight="70.0" prefWidth="70.0" styleClass="icon-button" text="historiku">
+                     <graphic>
+                        <ImageView fitHeight="58.0" fitWidth="62.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../icons/reciept-icon.png" />
+                           </image>
+                        </ImageView>
+                     </graphic></Button>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="75.0" prefWidth="239.0">
+                     <children>
+                        <Label fx:id="totalLabel" alignment="CENTER_RIGHT" prefHeight="56.0" prefWidth="139.0" styleClass="total-label" text="0" textAlignment="JUSTIFY">
+                           <font>
+                              <Font size="15.0" />
+                           </font></Label>
+                     </children>
+                  </HBox>
+               </children>
+            </HBox>
+            <AnchorPane prefHeight="200.0" prefWidth="200.0">
+               <children>
+                  <Button contentDisplay="GRAPHIC_ONLY" layoutY="115.0" mnemonicParsing="false" onAction="#endShiftAction" prefHeight="69.0" prefWidth="47.0" styleClass="icon-button">
+                     <graphic>
+                        <ImageView fitHeight="61.0" fitWidth="67.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../icons/end-shift-icon.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button contentDisplay="GRAPHIC_ONLY" graphicTextGap="0.0" layoutX="397.0" layoutY="119.0" mnemonicParsing="false" onAction="#backButtonAction" prefHeight="56.0" prefWidth="43.0" styleClass="icon-button">
+                     <graphic>
+                        <ImageView fitHeight="57.0" fitWidth="61.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../icons/lock-user-icon.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+               </children></AnchorPane>
+         </children>
+      </VBox>
+   </children>
+</HBox>
